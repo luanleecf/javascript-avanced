@@ -1,0 +1,38 @@
+* {
+    background-color: #ffffffff;
+}
+
+.preto {
+    background-color: #000;
+    color: #ffffffff;
+}
+
+.verde {
+    background-color: #00FF00;
+    color: #000;
+}
+
+.image {
+    height: 25rem;
+}
+
+.texto {
+    width: 12.5rem;
+    height: 56.25rem;
+    overflow: auto;
+    background-color: #ccc;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.scrollbutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FF0000;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    display: none;
+}
